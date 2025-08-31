@@ -1,5 +1,3 @@
-mkdir -p app
-cat > app/index.tsx <<'EOF'
 import { View, Text, StyleSheet } from "react-native";
 
 export default function Index() {
@@ -49,4 +47,3 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
-EOF
